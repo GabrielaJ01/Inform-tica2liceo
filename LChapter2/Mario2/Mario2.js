@@ -10,14 +10,6 @@ function piso (nPisos, altura){
     texto = texto+"</p>";
     return texto
 }
-let nPisos;
-do { //Lo que se hace
-    altura = parseInt(prompt("Ingrese la altura de sus escaleras"))
-} while (altura%1 !=0 || altura >= 10 || isNaN(altura)); //La condicion para que se repita  
-let contenido = ""
-for (let i = 1; i <= altura; i++){
-    contenido = contenido + piso(i, altura)
-}
 
 let nPiso;
 do {
