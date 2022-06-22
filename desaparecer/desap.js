@@ -54,7 +54,7 @@ let Francisco = new Personaje (300, 200, 45, 50)
 Francisco.dibujarse ()
 
 let contenedor =  document.querySelector("#contenedor")
-contenedor.innerHTML = "Haz click en los personajes para que desaparezcan"
+contenedor.innerHTML = "Haz click en el personaje para que desaparezca"
 
 canv.addEventListener ("click", function(a){
  let XM = a.offsetX
